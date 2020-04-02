@@ -1,25 +1,21 @@
-
 h1{
     color: red;
     text-align: center;
     font-size: 20pt;
 }
-@media screen and (max-width:600px){
-    h1{font-size: 14pt;}
-}
 img{
-        height: 270px;
-        width: 270px;
+        height: 250px;
+        width: 250px;
         padding-bottom: 10px;
         box-sizing: border-box;
         border-radius: 20px;
-        margin-left: 4.5rem;
+        margin-left: 20px;
         margin-right: 20px;
 
 }
 @media screen and (max-width:600px){
     img{
-        padding-left: 1rem;
+        margin-left: 5px;
         margin-right: 5px;
     }
 }
@@ -27,5 +23,10 @@ img{
 .pizza{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
+@media screen and (max-width:600px){
+    body{font-size: 12pt;}
+}
